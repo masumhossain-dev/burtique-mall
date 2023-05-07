@@ -32,11 +32,12 @@
 }
 .cart-text{
   font-family: sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 18px;
-letter-spacing: 0.0125em;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.0125em;
+  margin-right: 8px;
 }
 .product-information{
   margin: 0px 14px;
@@ -53,8 +54,12 @@ letter-spacing: 0.0125em;
   top: 90.60%;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .btn-cart:hover{
   background-color: gray;
-  color: white
+  color: white;
+  transition: 0.30s;
 }
